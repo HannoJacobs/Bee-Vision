@@ -1,0 +1,15 @@
+.DS_Store
+.vscode
+.vscode/*
+.venv
+
+__pycache__
+__pycache__/*
+
+_*
+!__init__.py
+
+*.pt
+*.pth
+*.onnx
+*.zip

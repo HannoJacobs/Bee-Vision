@@ -1,0 +1,10 @@
+ultralytics
+opencv-python # used for inferencing
+supervision
+
+torch
+torchvision
+
+pillow
+pathlib
+numpy
