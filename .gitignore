@@ -13,3 +13,8 @@ _*
 *.pth
 *.onnx
 *.zip
+
+# this is only applicable for training the nano model
+!runs/detect/train/weights/best.pt
+!runs/detect/train/weights/last.pt
+!yolov8n.pt
