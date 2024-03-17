@@ -67,7 +67,7 @@ def show_frame_with_detections(frame, yolo_detections, model):
 
 if __name__ == "__main__":
     model_path = "runs/detect/train/weights/best.pt"
-    frame_path = "media/mosaic_1.jpg"
+    frame_path = "mosaic_creator/mosaic_1.jpg"
 
     frame = cv2.imread(frame_path)
     model = YOLO(model_path)

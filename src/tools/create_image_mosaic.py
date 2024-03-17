@@ -57,7 +57,7 @@ def create_mosaic(image_files, output_file, rows, cols):
 
 
 # Define the directory path where to look for images
-directory_path = Path("media/input_images")
+directory_path = Path("mosaic_creator/input_images")
 
 # Specify the images to combine
 image_paths = (
@@ -68,7 +68,7 @@ image_paths = (
 )
 
 # Specify the output file name
-output_file = "media/mosaic_1.jpg"
+output_file = "mosaic_creator/mosaic_1.jpg"
 
 # Define the number of rows and columns in the mosaic
 rows = cols = int(np.ceil(np.sqrt(len(image_paths))))

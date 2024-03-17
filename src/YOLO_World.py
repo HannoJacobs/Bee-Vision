@@ -67,7 +67,7 @@ def show_frame_with_detections(frame, yolo_detections, model):
 
 if __name__ == "__main__":
     model_path = "yolov8x-worldv2.pt"
-    image_path = "media/mosaic_1.jpg"
+    image_path = "mosaic_creator/mosaic_1.jpg"
 
     frame = cv2.imread(image_path)
     model = YOLO(model_path)
