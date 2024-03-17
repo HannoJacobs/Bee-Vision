@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Allodapula', 'Apis-mellifera-scutellata', 'Braunsapis', 'Lasioglossum', 'Meliponula', 'Seladonia', 'Thyreus', 'Xylocopa']
+
+roboflow:
+  workspace: maya-dutywa
+  project: hanno_bee_types
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/maya-dutywa/hanno_bee_types/dataset/2
