@@ -8,3 +8,12 @@ torchvision
 pillow
 pathlib
 numpy
+
+
+# Requires chromedriver. Download from https://chromedriver.chromium.org/
+tqdm
+selenium
+
+scikit-image
+requests
+bs4
