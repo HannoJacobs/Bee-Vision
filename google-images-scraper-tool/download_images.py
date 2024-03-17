@@ -2,8 +2,8 @@ import os
 
 # Constants
 chromedriver_path = "/Users/hannojacobs/chromedriver_mac_arm64/chromedriver"
-num_images_to_dl = 100
-script_name = "bing_scraper.py"
+num_images_to_dl = 5
+script_name = "google-images-scraper-tool/bing_scraper.py"
 
 # Unique part of each command: the search queries
 search_queries = [

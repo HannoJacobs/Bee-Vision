@@ -5,7 +5,6 @@
 #   python bing_scraper.py --url 'https://www.bing.com/images/search?q=flowers' --limit 10
 #   python bing_scraper.py --search 'honeybees on flowers' --limit 10
 
-
 import argparse
 import codecs
 import datetime
