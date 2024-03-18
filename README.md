@@ -26,7 +26,7 @@ This repo is used for the exploration of bee types image data, some tools for da
 
 ### 6. SIRG_group_bee_images
     - This is the data supplied by the SIRG group for bee identification
-    - It 27 images of which several are not even named as a type of bee but come with a default camera dslr image name.
+    - It contains 27 images of which several are not even named as a type of bee but come with a default camera dslr image name.
     - This data is not enough to even make a dent in the number of images needed to train a model properly, but we will incorporate it into the training data for future models in any case.
 
 ### 7. src (Python code src files)
@@ -40,6 +40,6 @@ This repo is used for the exploration of bee types image data, some tools for da
 
 The data that is obtained by web-scraping has the risk of being incorrectly labeled since google results for one type of bee often result in a significant portion of the images in the google search being of another type of bee. This makes it very difficult to spot the discrepancy in the labeling process since one needs to be a bee expert to even tell the difference between the types of bees in the labeling process. This further highlights the importance of having a dataset of bee types supplied by the SIRG group.   
 
-Looking at the two .ipynb files in the root of the repo shows the results of inferencing with the zero shot model (YOLO_World) and the custom trained YOLOv8 model. In tha YOLO_world notebook we can see that the bees are all identified as "Lasioglossum" (except for one which is "Xyocopa") which is not correct. Therefore, this zero-shot model cannot work for identifying different types of bees.   
+Looking at the two .ipynb files in the root of the repo shows the results of inferencing with the zero shot model (YOLO_World) and the custom trained YOLOv8 model. In the YOLO_world notebook we can see that the bees are all identified as "Lasioglossum" (except for one which is "Xyocopa") which is not correct. Therefore, this zero-shot model cannot work for identifying different types of bees.   
 
-Looking at the custom trained YOLOv8 model's notebook we can see that the bees are all identified as different types of bees which is correct. However, I am not a bee expert so I cannot even tell if it is correct or not since all of the bees look so similar that I really cannot tell what the ground truth should be. This again highlights the importance of having a dataset of bee types supplied by the SIRG group that atleast has file names that correspond to the type of bee in the image.
+Looking at the custom trained YOLOv8 model's notebook we can see that the bees are all identified as different types of bees which is correct. However, I am not a bee expert so I cannot even tell if it is correct or not since all of the bees look so similar that I really cannot tell what the ground truth should be. This again highlights the importance of having a dataset of bee types supplied by the SIRG group that at least has file names that correspond to the type of bee in the image.
