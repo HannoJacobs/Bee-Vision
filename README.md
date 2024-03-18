@@ -2,7 +2,7 @@
 
 ## What this repo does
 
-This repo is used for the exploration of Bee image data and some preliminary model's analysis and performance.
+This repo is used for the exploration of bee types image data, some tools for data scraping from the internet a mosaic image generator tool for inferencing tests, code that is used to train a custom model on the datasets and some preliminary model's analysis and performance in Python notebook files.
 
 ## Folder structure
 
