@@ -16,7 +16,7 @@ It can classify bees into the following species from an image:
 
 ### Bee-Vision in action
 
-![inf_mosaic.png](inf_mosaic.png)
+![Notepads/inf_mosaic.png](Notepads/inf_mosaic.png)
 
 
 ### **Developed by**
