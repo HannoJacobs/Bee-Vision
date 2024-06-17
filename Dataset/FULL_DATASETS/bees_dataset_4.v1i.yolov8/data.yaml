@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Allodapula', 'Apis-mellifera-scutellata', 'Braunsapis', 'Lasioglossum', 'Meliponula', 'Seladonia', 'Thyreus', 'Xylocopa']
+
+roboflow:
+  workspace: maya-dutywa
+  project: bees_dataset_4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/maya-dutywa/bees_dataset_4/dataset/1

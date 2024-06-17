@@ -1,0 +1,10 @@
+path: /home/eg/bees_dataset_4.v2i.yolov8/
+train:
+- train/images
+val:
+- valid/images
+test:
+- test/images
+
+nc: 8
+names: ['Allodapula', 'Apis-mellifera-scutellata', 'Braunsapis', 'Lasioglossum', 'Meliponula', 'Seladonia', 'Thyreus', 'Xylocopa']

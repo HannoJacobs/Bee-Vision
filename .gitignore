@@ -1,0 +1,23 @@
+.DS_Store
+.vscode
+.vscode/*
+.venv
+.env
+
+__pycache__
+__pycache__/*
+
+
+_*
+!__init__.py
+
+
+*.zip
+yolov8x-worldv2.pt
+runs/detect/dataset_4v2_yolov8x_200epochs/weights/best.pt
+runs/detect/dataset_4v2_yolov8x_200epochs/weights/last.pt
+
+# this is only applicable for training the nano model
+!runs/detect/train/weights/best.pt
+!runs/detect/train/weights/last.pt
+!models/yolov8n.pt
